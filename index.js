@@ -1,5 +1,5 @@
 'use strict';
-
+const Bcrypt = require('bcrypt');
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
@@ -13,8 +13,7 @@ const init = async () => {
         method: 'GET',
         path:'/',
         handler: (request, h) => {
-
-            return 'Hello World!';
+            return 'Hello World! I\'m Hapi';
         }
     });
 

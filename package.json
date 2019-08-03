@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^18.3.1"
+    "@hapi/cookie": "^10.1.0",
+    "@hapi/hapi": "^18.3.1",
+    "bcrypt": "^3.0.6"
   }
 }
