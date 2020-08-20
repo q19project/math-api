@@ -11,6 +11,6 @@
   "dependencies": {
     "@hapi/cookie": "^10.1.0",
     "@hapi/hapi": "^18.3.1",
-    "bcrypt": "^3.0.6"
+    "bcrypt": "^5.0.0"
   }
 }
